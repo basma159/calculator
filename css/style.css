@@ -20,8 +20,8 @@ body {
     justify-content: space-evenly;
     border-radius: 20px;
     padding: 20px 0;
-    background-color: #fcddbb;
-    border: 10px solid #9F8383;
+    background-color: #f2EAE0;
+    border: 10px solid #BDA6CE;
     box-shadow: 1px 2px 15px rgba(110, 27, 27, 0.4);
 
     /* box-shadow: 1px 7px 20px 10px #9F8383; */
@@ -53,7 +53,16 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
-
+button:no-button(#btn-reset1,
+#btn-reset2,
+#btn-re-div,
+#btn-div,
+#btn-mul,
+#btn-sub,
+#btn-sum,
+#btn-equal){
+    background-color: #B4D3D9;
+}
 button {
     width: 60px;
     height: 60px;
@@ -83,7 +92,7 @@ button:hover {
 #btn-sum,
 #btn-equal {
     color: white;
-    background-color: #574964;
+    background-color: #9B8EC7;
 }
 #btn-reset1:hover,
 #btn-reset2:hover,
